@@ -1,12 +1,15 @@
-# Project Name
+# Tutorial: Automated Webscraping with AWS
 
-example image:
+<br>
+
+## Learn how to scrape information such as news headlines daily with an automated script.
 
 
-![alternative text](reports/img/pic01.jpg)
+![SRF Website Header](reports/img/srf_news_header.png)
+**Wonder what's the news today?**
+<br>
+<br>
 
-
-#### -- Project Status: [Active, On-Hold, Completed]
 
 ## Project Intro/Objective
 The purpose of this project is ________. (Describe the main goals of the project. Limit to a short paragraph, 3-6 Sentences)
