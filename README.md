@@ -1,4 +1,4 @@
-# Automated Webscraping Tutorial with BeautifulSoup and AWS
+# Tutorial: Automated Webscraping with AWS
 
 <br>
 
