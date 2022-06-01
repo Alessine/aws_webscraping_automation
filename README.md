@@ -1,10 +1,10 @@
-# Project Name
+# Automated Webscraping Tutorial with BeautifulSoup and AWS
 
-example image:
+## Learn how to scrape information such as news headlines daily with an automated script.
 
 
-![alternative text](reports/img/srf_news_header.png)
-
+![SRF Website Header](reports/img/srf_news_header.png)
+*What's new today?*
 
 #### -- Project Status: [Active, On-Hold, Completed]
 
