@@ -1,0 +1,51 @@
+1) give the user AmazonEC2FullAccess (add the policy in the User's profile)
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-policies-for-amazon-ec2.html
+
+2) Launch the instance
+
+3) Give your instance access to S3.
+https://aws.amazon.com/premiumsupport/knowledge-center/ec2-instance-access-s3-bucket/
+
+4) Connect to it from the command line
+https://eu-central-1.console.aws.amazon.com/ec2/v2/home?region=eu-central-1#ConnectToInstance:instanceId=i-0844d252ef25008a2
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html
+
+5) In another terminal window:
+- check what AWS profile you're using:
+aws configure list
+- set the aws profile to be used:
+export AWS_PROFILE=Alessine
+- list all the instances associated with this profile:
+aws ec2 describe-instances
+
+6) Give yourself permission to access all files in the project directory
+chmod 700 directory
+
+7) Restrict access to the key though
+chmod 400 keyfile.pem
+
+8) Copy the required files: requirements.txt & main.py
+scp -i webscraping_tutorial_ec2.pem requirements.txt ubuntu@ec2-18-157-79-164.eu-central-1.compute.amazonaws.com:~/
+
+9) On your instance: install pip
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-linux.html
+
+10) Install the packages from the requirements file
+pip install -r requirements.txt
+
+11) Check if you can run the python script in the instance
+python3 main.py
+
+12) Check your instance's timezone
+timedatectl
+timedatectl list-timezones
+sudo timedatectl set-timezone Europe/Zurich
+
+13) Set up a daily trigger
+crontab -e
+choose nano editor
+50 23 * * * python3 main.py
+to run the file main.py every day at 23:50h
+save with Ctrl.+O, exit with Ctrl.+X
+

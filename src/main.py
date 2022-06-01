@@ -5,7 +5,7 @@ import pandas as pd  # Version 1.4.2
 from datetime import date  # Built-in Python library
 
 # Code refactor
-import logging
+import logging  # Built-in Python library
 
 
 def scrape_srf_daily_news(url):
