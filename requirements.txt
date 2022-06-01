@@ -1,0 +1,9 @@
+# Python 3.10.4
+
+# Retrieving & Wrangling Data
+requests~=2.27.1
+beautifulsoup4~=4.11.1
+pandas~=1.4.2
+
+# Saving the Data
+s3fs~=2022.5.0
