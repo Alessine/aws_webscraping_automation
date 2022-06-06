@@ -35,6 +35,7 @@ As mentioned, when I started this project, I wanted to learn how to automate a w
 ## Featured Materials
 * [Blog Post](link)
 * [Notebook 1: Developing a Webscraping Script for Automation on AWS](https://github.com/Alessine/aws_webscraping_automation/blob/master/notebooks/220601_nb1_aws_webscraping_automation.ipynb)
+* [Example Data File](https://github.com/Alessine/aws_webscraping_automation/blob/master/data/raw/2022-06-01_srf_news_snippets.csv)
 * [Project Requirements](https://github.com/Alessine/aws_webscraping_automation/blob/master/requirements.txt)
 
 
