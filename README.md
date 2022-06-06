@@ -39,5 +39,4 @@ As mentioned, when I started this project, I wanted to learn how to automate a w
 
 
 ## Questions?
-
-If you have any questions you can get in touch with me via LinkedIn: **[Angela Niederberger](https://www.linkedin.com/in/angela-niederberger/)**
+If you have any questions you can get in touch with me via [LinkedIn](https://www.linkedin.com/in/angela-niederberger/).
