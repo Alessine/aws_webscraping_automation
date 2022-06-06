@@ -1,9 +1,6 @@
 ### credentials ###
 *.pem
 
-data/
-
-
 ### dotenv ###
 .env
 
