@@ -34,10 +34,10 @@ As mentioned, when I started this project, I wanted to learn how to automate a w
 
 ## Featured Materials
 * [Blog Post](link)
-* [Notebook 1: Developing a Webscraping Script for Automation on AWS]([link](https://github.com/Alessine/aws_webscraping_automation/blob/master/notebooks/220601_nb1_aws_webscraping_automation.ipynb))
-* [Project Requirements]([link](https://github.com/Alessine/aws_webscraping_automation/blob/master/requirements.txt))
+* [Notebook 1: Developing a Webscraping Script for Automation on AWS](https://github.com/Alessine/aws_webscraping_automation/blob/master/notebooks/220601_nb1_aws_webscraping_automation.ipynb)
+* [Project Requirements](https://github.com/Alessine/aws_webscraping_automation/blob/master/requirements.txt)
 
 
 ## Questions?
 
-If you have any questions you can get in touch with me via LinkedIn: **[Angela Niederberger]([https://github.com/[github handle]](https://www.linkedin.com/in/angela-niederberger/))**
+If you have any questions you can get in touch with me via LinkedIn: **[Angela Niederberger](https://www.linkedin.com/in/angela-niederberger/)**
