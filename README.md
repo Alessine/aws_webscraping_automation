@@ -6,43 +6,29 @@
 
 
 ![SRF Website Header](reports/img/srf_news_header.png)
-**Wonder what's the news today?**
+**Wonder what's in the news today?**
 <br>
 <br>
 
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project. Limit to a short paragraph, 3-6 Sentences)
-
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact]
-* If you do not have a partner leave this section out
+The purpose of this project is to showcase an automated webscraping example and to document all the steps in the set-up. This should enable others to learn about automation with AWS and to replicate this process to solve their own tasks.
 
 ### Methods Used
-* Inferential Statistics
-* Machine Learning
-* Data Visualization
-* Predictive Modeling
-* etc.
+* Webscraping
+* Virtual Machines
 
 ### Technologies
-* R
-* Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc.
+* Python: Pandas, BeautifulSoup, requests
+* Jupyter Notebook (for exploration)
+* PyCharm (for production)
+* AWS (S3 for storage, EC2 for cloud computing)
 
 ## Project Description
-(Provide more detailed overview of the project.
-Talk a bit about your data sources and what questions and hypothesis you are exploring.
-What specific data analysis/visualization and modelling work are you using to solve the
-problem? What blockers and challenges are you facing?
-Feel free to number or bullet point things here)
+I'm interested in trying out NLP tasks such as Named Entity Recognition, Topic Modelling or Sentiment Analysis on German language data, since it is my native language and most of the well-documented use cases focus on English. I thought a good source for the text data would be the Swiss national TV and Radio broadcaster SRF. The articles on their main [news website](https://www.srf.ch/news/das-neueste) are updated frequently, cover a wide range of topics and there are very few spelling or grammar errors (which cannot be taken for granted especially with online resources). So I decided to scrape their website daily to put together a good German language dataset. The webscraping script can be found [here]().
+
+As mentioned, when I started this project, I wanted to learn how to automate a webscraping task, so that I would be able to build my own dataset. However, when I started looking into resources on webscraping automation, I did not find anything that really matched my needs and interests. Therefore, I decided to invest a bit more into the documentation of this project and write up an article on Medium, so that others can use my learnings to work on their own automation projects.
+
 
 ## Getting Started
 
