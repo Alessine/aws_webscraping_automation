@@ -43,16 +43,16 @@ def scrape_srf_daily_news(url):
         news_snippet_dict["title"].append(title.get_text())
         news_snippet_dict["lead"].append(lead.get_text())
 
-    news_snippets_df = pd.DataFrame(news_snippet_dict)
+    news_snippet_df = pd.DataFrame(news_snippet_dict)
 
     # Turn the publishing time into a timestamp
-    news_snippets_df["time_published"] = pd.to_datetime(news_snippets_df["time_published"])
+    news_snippet_df["time_published"] = pd.to_datetime(news_snippet_df["time_published"])
 
     # Select only news from this day
-    news_snippets_df = news_snippets_df[news_snippets_df["time_published"].dt.date ==
+    news_snippet_df = news_snippet_df[news_snippet_df["time_published"].dt.date ==
                                         date.today()]
 
-    return news_snippets_df
+    return news_snippet_df
 
 
 def main(url, s3_folder_path, filename):
