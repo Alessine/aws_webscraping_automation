@@ -1,6 +1,9 @@
 ### credentials ###
 *.pem
 
+### medium folder ###
+*/medium
+
 ### dotenv ###
 .env
 

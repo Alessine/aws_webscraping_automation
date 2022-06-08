@@ -55,7 +55,7 @@ def scrape_srf_daily_news(url):
     return news_snippets_df
 
 
-def main(url, s3_folder_path, filename):
+def main(url, folder_path, filename):
     """
     This function combines the scraping and saving functions.
     It logs the progress and prints out info messages.
@@ -67,15 +67,15 @@ def main(url, s3_folder_path, filename):
     todays_news_df = scrape_srf_daily_news(url=url)
     logger.info('Data retrieved')
 
-    # Save it to the bucket
-    todays_news_df.to_csv(f"{s3_folder_path}/{filename}")
-    logger.info('File saved to bucket')
+    # Save it
+    todays_news_df.to_csv(f"{folder_path}/{filename}")
+    logger.info('File saved')
 
 
 if __name__ == '__main__':
     # Define the required arguments
     srf_news_site = "https://www.srf.ch/news/das-neueste"
-    s3_data_folder = "s3://srf-news-snippets/data"
+    data_folder = "./data/raw"
     file = f"{date.today()}_srf_news_snippets.csv"
 
     # Configure the logging
@@ -83,4 +83,4 @@ if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO, format=log_fmt)
 
     # Run the main function
-    main(url=srf_news_site, s3_folder_path=s3_data_folder, filename=file)
+    main(url=srf_news_site, folder_path=data_folder, filename=file)
