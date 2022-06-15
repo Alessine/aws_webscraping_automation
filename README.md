@@ -46,12 +46,12 @@ Here's is how I organized this project:
 │ └── img   
 │  
 ├── src  
-│  ├── main.py  
-│  └── main_local.py  
+│  ├── main.py     &nbsp; &nbsp; &nbsp; &nbsp; *<-- scraping script to run in the cloud*  
+│  └── main_local.py     &nbsp; &nbsp; &nbsp; &nbsp; *<-- scraping script to run locally*  
 │  
 ├── LICENSE  
 ├── README.md  
-└── requirements.txt  
+└── requirements.txt       &nbsp; &nbsp; &nbsp; &nbsp; *<-- list of all the requirements for this project*  
 
 
 ## Featured Materials
