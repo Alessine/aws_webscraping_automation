@@ -49,6 +49,7 @@ Here's is how I organized this project:
 │  ├── main.py     &nbsp; &nbsp; &nbsp; &nbsp; *<-- scraping script to run in the cloud*  
 │  └── main_local.py     &nbsp; &nbsp; &nbsp; &nbsp; *<-- scraping script to run locally*  
 │  
+├── .gitignore  
 ├── LICENSE  
 ├── README.md  
 └── requirements.txt       &nbsp; &nbsp; &nbsp; &nbsp; *<-- list of all the requirements for this project*  
