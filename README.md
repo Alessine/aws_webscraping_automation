@@ -34,16 +34,16 @@ Here's is how I organized this project:
 ├── data  
 │ ├── processed  
 │ └── raw  
-│   └── 2022-06-01_srf_news_snippets.csv  *<- example data file*
+│  &nbsp; &nbsp;  └── 2022-06-01_srf_news_snippets.csv &nbsp; &nbsp; &nbsp; &nbsp; *<-- example data file*  
 │  
 ├── notebooks  
-│ ├── 220601_nb1_aws_webscraping_automation.ipynb  
-│ └── 220605_nb2_srf_headlines_analysis.ipynb  
+│ ├── 220601_nb1_aws_webscraping_automation.ipynb   &nbsp; &nbsp; &nbsp; &nbsp; *<-- developing the webscraping script*  
+│ └── 220605_nb2_srf_headlines_analysis.ipynb   &nbsp; &nbsp; &nbsp; &nbsp; *<-- first peak at the new dataset*  
 │  
 ├── references  
-│
+│  
 ├── reports   
-│ └── img  
+│ └── img   
 │  
 ├── src  
 │  ├── main.py  
