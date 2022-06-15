@@ -34,19 +34,21 @@ Here's is how I organized this project:
 ├── data  
 │ ├── processed  
 │ └── raw  
-│   └── 2022-06-01_srf_news_snippets.csv  
+│   └── 2022-06-01_srf_news_snippets.csv  *<- example data file*
+│  
 ├── notebooks  
-│ └── 
+│ ├── 220601_nb1_aws_webscraping_automation.ipynb  
+│ └── 220605_nb2_srf_headlines_analysis.ipynb  
+│  
 ├── references  
 │
 ├── reports   
-│ └── img   
-│
-│
+│ └── img  
+│  
 ├── src  
 │  ├── main.py  
 │  └── main_local.py  
-│
+│  
 ├── LICENSE  
 ├── README.md  
 └── requirements.txt  
