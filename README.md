@@ -31,22 +31,26 @@ As mentioned, when I started this project, I wanted to learn how to automate a w
 ## Folder Structure
 Here's is how I organized this project:
 
-├── LICENSE
-├── README.md
-├── data
-│ ├── processed
-│ └── raw
-├── notebooks
-├── references
+├── data  
+│ ├── processed  
+│ └── raw  
+│   └── 2022-06-01_srf_news_snippets.csv  
+├── notebooks  
+│ └── 
+├── references  
 │
-├── reports 
-│ └── img 
+├── reports   
+│ └── img   
 │
-├── requirements.txt
 │
-└── src
-  ├── main.py
-  └── main_local.py
+├── src  
+│  ├── main.py  
+│  └── main_local.py  
+│
+├── LICENSE  
+├── README.md  
+└── requirements.txt  
+
 
 ## Featured Materials
 * [Blog Post](link)
