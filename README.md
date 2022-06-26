@@ -2,10 +2,10 @@
 
 <br>
 
-## Learn how to scrape information such as news headlines daily with an automated script.
+## Learn how to move your scraping job into the cloud.
 
-![SRF Website Header](reports/img/srf_news_header.png)
-**Wonder what's on the news today?**
+![SRF Website Header](reports/img/srf_website_inspector_2.png)
+**Want to collect all kinds of data without even thinking about it?**
 <br>
 <br>
 
