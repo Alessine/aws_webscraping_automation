@@ -4,7 +4,7 @@
 
 ## Learn how to move your scraping job into the cloud.
 
-![SRF Website Header](reports/img/srf_website_inspector_2.png)
+![SRF Website Header](reports/img/daniel-pascoa-clouds-unsplash.jpg)
 **Want to collect all kinds of data without even thinking about it?**
 <br>
 <br>
